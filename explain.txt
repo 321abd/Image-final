@@ -5,7 +5,7 @@ What to do:
     2.  Find the middle point of this picture. Tell us what color or brightness is at that exact middle point. 
     3.  Put a small, colored square box right in the middle of the picture. The box is 30 pixels tall and 40 pixels wide. The color of this box is a special blue-green (#329ea8). 
     4.  Tell us what color or brightness is now at the middle of this new colored box. 
-    5.  Show the picture with the new colored box. 
+    5.  Show the picture with the new colored box.
 
 Why: We do this operation to check if we capatured points in a specific image and draw in it.
 
