@@ -1,0 +1,71 @@
+Problem 1: Picture Center and Color Box
+
+What to do:
+    1.  Look at the `tf2_engineer.jpg` picture. Show it in full color. 
+    2.  Find the middle point of this picture. Tell us what color or brightness is at that exact middle point. 
+    3.  Put a small, colored square box right in the middle of the picture. The box is 30 pixels tall and 40 pixels wide. The color of this box is a special blue-green (#329ea8). 
+    4.  Tell us what color or brightness is now at the middle of this new colored box. 
+    5.  Show the picture with the new colored box. 
+
+Why: We do this operation to check if we capatured points in a specific image and draw in it.
+
+--------------
+
+Problem 2: Darker Version of Picture
+
+What to do:
+    1.  Look at the `einstein.tiff` picture. Show it in black and white (grayscale). 
+    2.  Make a "negative" of this picture. This means dark parts become bright, and bright parts become dark. 
+    3.  Show this negative picture. 
+    4.  Pick 5 random tiny spots (pixels) on the first picture. See their brightness. Then, look at the same 5 spots on the negative picture and see their brightness. Show that they are opposite. 
+
+Why: this operation is used to reverse an image colors.
+
+--------------
+
+Problem 3: Light Changes (Log Transform)
+
+What to do:
+    1.  Look at the `pout.tiff` picture. Show it in black and white. 
+    2.  Change the light in the picture using something called "log transform." Show the new picture. 
+    3.  Change the light in the *original* picture using "inverse log transform." Show this new picture. 
+    4.  Now, take the picture from step 2 (the "log transform" one) and apply "inverse log transform" to it. Show this picture. 
+    5.  Tell us what you see when you compare the picture from step 2 and the picture from step 4. Are they similar? What did the changes do? 
+
+Why: This operation is used to use special methods to enhance the image brightness especially dark areas.
+
+--------------
+
+Problem 4: Sharpening Pictures
+
+What to do:
+    1.  Look at the `moon.tiff` picture. Show it in black and white. 
+    2.  Make the picture sharper using a method called "unsharp masking" in a normal way (spatial domain). You need to try this with three different "k" numbers (you pick them). 
+    3.  Make the picture sharper using "unsharp masking" in a different way (frequency domain). You must use the *same* three "k" numbers as in step 2. You also need to pick a special number called "D0" for this. 
+    4.  For each "k" number, show the sharpened picture from step 2 next to the sharpened picture from step 3. 
+
+Why: this operation is used to do the image clearer and sharper.
+
+--------------
+
+Problem 5: Finding and Fixing Bad Spots (Noise)
+
+What to do:
+    1.  Look at the `pcb.tiff` picture. Show it in black and white.
+    2.  Look closely or use a simple chart (histogram) to figure out what kind of "bad spots" (noise) are in the picture. Is it like tiny white and black dots (salt-and-pepper) or blurry fuzz (Gaussian)? 
+    3.  Use the right computer tools (filters) to remove these bad spots. 
+
+Why: This operation is used to detect problems and clean them.
+
+--------------
+
+Problem 6: Fix the Picture Problem
+
+What to do:
+    1.  Look at the `pollen.tiff` picture. Show it in black and white. 
+    2.  Tell us what is wrong with this picture. Show us why you think so (using numbers, how it looks, or charts). 
+    3.  Use two *different* ways to fix the problem in the picture. 
+    4.  Show the picture after you fix it with each way. 
+    5.  For each way you fixed it, tell us *why* it worked. Show us proof (using numbers, how it looks, or charts) that it's better now. 
+
+Why: this operation is to detect problems and clean them up in different ways using only things we took in class
